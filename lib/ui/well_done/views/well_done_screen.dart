@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:women_lose_weight_flutter/google_ads/custom_ad.dart';
 import 'package:women_lose_weight_flutter/utils/color.dart';
 import 'package:women_lose_weight_flutter/utils/constant.dart';
 import 'package:women_lose_weight_flutter/utils/sizer_utils.dart';
@@ -29,7 +28,6 @@ class WellDoneScreen extends StatelessWidget {
                 ],
               ),
             ),
-            const BannerAdClass(),
           ],
         ),
       ),

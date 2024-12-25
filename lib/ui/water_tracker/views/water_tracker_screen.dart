@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:women_lose_weight_flutter/google_ads/custom_ad.dart';
 import 'package:women_lose_weight_flutter/ui/home/controllers/home_controller.dart';
 import 'package:women_lose_weight_flutter/ui/water_tracker/controllers/water_tracker_controller.dart';
 import 'package:women_lose_weight_flutter/utils/color.dart';
@@ -46,7 +45,6 @@ class WaterTrackerScreen extends StatelessWidget {
                 ],
               ),
             ),
-            const BannerAdClass(),
           ],
         ),
       ),

@@ -7,7 +7,6 @@ import 'package:women_lose_weight_flutter/ui/home/controllers/home_controller.da
 import 'package:women_lose_weight_flutter/utils/color.dart';
 import 'package:women_lose_weight_flutter/utils/utils.dart';
 
-import '../../../google_ads/custom_ad.dart';
 import '../../../utils/constant.dart';
 import '../../../utils/sizer_utils.dart';
 import '../../me/views/me_screen.dart';
@@ -46,7 +45,6 @@ class HomeScreen extends StatelessWidget {
                           ],
                         ),
                       ),
-                      const BannerAdClass(),
                     ],
                   ),
                 ),
