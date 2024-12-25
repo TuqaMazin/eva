@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:women_lose_weight_flutter/google_ads/custom_ad.dart';
 import 'package:women_lose_weight_flutter/utils/constant.dart';
 
 import '../../../common/dialog/height/height.dart';
@@ -24,7 +23,6 @@ class MyProfileScreen extends StatelessWidget {
             _widgetBack(),
             _chooseCategories(),
             _heightWeightTargetWeightWidget(),
-            const BannerAdClass(),
           ],
         ),
       ),

@@ -5,7 +5,6 @@ import 'package:table_calendar/table_calendar.dart';
 import 'package:women_lose_weight_flutter/database/custom_classes/custom_classes.dart';
 import 'package:women_lose_weight_flutter/database/helper/db_helper.dart';
 import 'package:women_lose_weight_flutter/database/table/history_table.dart';
-import 'package:women_lose_weight_flutter/google_ads/custom_ad.dart';
 import 'package:women_lose_weight_flutter/utils/color.dart';
 import 'package:women_lose_weight_flutter/utils/constant.dart';
 
@@ -41,7 +40,6 @@ class HistoryScreen extends StatelessWidget {
                 ),
               ),
             ),
-            const BannerAdClass(),
           ],
         ),
       ),

@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:women_lose_weight_flutter/google_ads/custom_ad.dart';
 import 'package:women_lose_weight_flutter/ui/recent/controllers/recent_controller.dart';
 import 'package:women_lose_weight_flutter/utils/color.dart';
 import 'package:women_lose_weight_flutter/utils/constant.dart';
@@ -22,7 +21,6 @@ class RecentScreen extends StatelessWidget {
           children: [
             _widgetBack(),
             _recentExerciseList(),
-            const BannerAdClass(),
           ],
         ),
       ),

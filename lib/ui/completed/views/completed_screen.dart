@@ -3,7 +3,6 @@ import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
-import 'package:women_lose_weight_flutter/google_ads/custom_ad.dart';
 import 'package:women_lose_weight_flutter/routes/app_routes.dart';
 import 'package:women_lose_weight_flutter/ui/completed/controllers/completed_controller.dart';
 import 'package:women_lose_weight_flutter/utils/constant.dart';
@@ -88,7 +87,6 @@ class CompletedScreen extends StatelessWidget {
                   ],
                 ),
               ),
-              const BannerAdClass(),
             ],
           ),
         ),

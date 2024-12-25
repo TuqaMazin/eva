@@ -10,7 +10,6 @@ import 'package:women_lose_weight_flutter/utils/color.dart';
 import 'package:women_lose_weight_flutter/utils/constant.dart';
 import 'package:women_lose_weight_flutter/utils/sizer_utils.dart';
 
-import '../../../google_ads/custom_ad.dart';
 import '../../../utils/utils.dart';
 
 class DaysPlanDetailScreen extends StatelessWidget {
@@ -47,7 +46,6 @@ class DaysPlanDetailScreen extends StatelessWidget {
                 ),
               ),
             ),
-            const BannerAdClass(),
           ],
         ),
       ),

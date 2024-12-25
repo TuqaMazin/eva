@@ -4,8 +4,6 @@ import 'package:women_lose_weight_flutter/ui/whats_your_goal/controllers/whats_y
 import 'package:women_lose_weight_flutter/utils/color.dart';
 import 'package:women_lose_weight_flutter/utils/constant.dart';
 import 'package:women_lose_weight_flutter/utils/sizer_utils.dart';
-
-import '../../../google_ads/custom_ad.dart';
 import '../../../utils/utils.dart';
 
 class WhatsYourGoalScreen extends StatelessWidget {
@@ -31,7 +29,6 @@ class WhatsYourGoalScreen extends StatelessWidget {
                 ],
               ),
             ),
-            const BannerAdClass(),
           ],
         ),
       ),
